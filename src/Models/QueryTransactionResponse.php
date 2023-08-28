@@ -17,7 +17,7 @@ use BrokeYourBike\DataTransferObject\JsonResponse;
 class QueryTransactionResponse extends JsonResponse
 {
     public string $status;
-    public string $message;
+    public ?string $message;
 
     #[MapFrom('data.error.code')]
     public ?string $errorCode;
