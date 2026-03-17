@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/brokeyourbike/polaris-bank-api-client-php/compare/v0.1.1...v0.2.0) (2026-03-17)
+
+
+### Features
+
+* source ([46c2d0c](https://www.github.com/brokeyourbike/polaris-bank-api-client-php/commit/46c2d0c467924d43c161c3155c6505e351c7e0c8))
+
 ### [0.1.1](https://www.github.com/brokeyourbike/polaris-bank-api-client-php/compare/v0.1.0...v0.1.1) (2023-08-28)
 
 
