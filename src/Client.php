@@ -47,10 +47,6 @@ class Client implements HttpClientInterface
     /** @link https://docs.openbanking.vulte.ng/#65802ea5-bf82-499b-8cde-f7463724aaea */
     public function disburse(string $requestReference, TransactionInterface $transaction): TransactionResponse
     {
-        if ($transaction instanceof SourceModelInterface){
-            $this->setSourceModel($transaction);
-        }
-
         $data = [
             'request_ref' => $requestReference,
             'request_type' => 'disburse',
@@ -82,10 +78,6 @@ class Client implements HttpClientInterface
     /** @link https://docs.openbanking.vulte.ng/#d6897e92-e417-49af-a52b-b3fb1e731c0f */
     public function queryTransaction(string $requestReference, TransactionInterface $transaction): QueryTransactionResponse
     {
-        if ($transaction instanceof SourceModelInterface){
-            $this->setSourceModel($transaction);
-        }
-
         $data = [
             'request_ref' => $requestReference,
             'request_type' => 'disburse',
@@ -156,7 +148,7 @@ class Client implements HttpClientInterface
             \GuzzleHttp\RequestOptions::JSON => $data,
         ];
 
-        if ($this->getSourceModel()) {
+        if ($this->getSourceModel() != null){
             $options[\BrokeYourBike\HasSourceModel\Enums\RequestOptions::SOURCE_MODEL] = $this->getSourceModel();
         }
 

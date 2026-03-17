@@ -2,8 +2,6 @@
 
 [![Latest Stable Version](https://img.shields.io/github/v/release/brokeyourbike/polaris-bank-api-client-php)](https://github.com/brokeyourbike/polaris-bank-api-client-php/releases)
 [![Total Downloads](https://poser.pugx.org/brokeyourbike/polaris-bank-api-client/downloads)](https://packagist.org/packages/brokeyourbike/polaris-bank-api-client)
-[![Maintainability](https://api.codeclimate.com/v1/badges/41d6114333d868a1af66/maintainability)](https://codeclimate.com/github/brokeyourbike/polaris-bank-api-client-php/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/41d6114333d868a1af66/test_coverage)](https://codeclimate.com/github/brokeyourbike/polaris-bank-api-client-php/test_coverage)
 
 Polaris Bank API Client for PHP
 
